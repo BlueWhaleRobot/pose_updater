@@ -89,5 +89,5 @@ if __name__ == "__main__":
                 "cmdId": "",
             }
             print(json.dumps(data, indent=4))
-            # requests.post(url, data=json.dumps(data), headers=headers)
+            requests.post(url, data=json.dumps(data), headers=headers)
         rate.sleep()
